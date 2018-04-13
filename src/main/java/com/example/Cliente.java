@@ -14,7 +14,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Cliente extends Thread {
-    public final static String Heroku = "";
+    public final static String Heroku = "https://aremsegundoparcialandrade.herokuapp.com/";
     
     public static void main(String[] args){
         for(int i = 0; i<20; i++){
